@@ -2,7 +2,7 @@
 
 namespace PracticaMVC.Models
 {
-    public class Estados_equipo
+    public class estados_equipo
     {
         [Key]
         [Display(Name = "ID")]

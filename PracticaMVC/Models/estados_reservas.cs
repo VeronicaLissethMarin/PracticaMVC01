@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 namespace PracticaMVC.Models
 {
-    public class estados_reservas
+    public class estados_reserva
     {
         [Key]
         [Display(Name = "ID")]
