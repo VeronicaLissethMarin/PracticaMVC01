@@ -1,0 +1,57 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Equipos</h1>
+</div>
+
+<div class="row">
+    <div class="form-group">
+        <label>Nombre de equipo</label>
+        @Html.TextBox("txtNombre","", new{@class="form-control"})
+    </div>
+    <div class="form-group">
+        @Html.Label("lblDescripcionE","Descripción")
+        @Html.TextArea("txaDescripcion","", new{@class="form-control"})
+    </div>
+    <div class="form-group">
+        @Html.Label("lbltipoEquipo","Tipo de Equipo")
+        @Html.TextBox("txaTipoequipo","", new{@class="form-control"})
+    </div>
+    <div class="form-group">
+        @Html.Label("lblmarcaId","Marca")
+        @Html.TextBox("txaMarcaId","", new{@class="form-control"})
+    </div>
+    <div class="form-group">
+        @Html.Label("lblModelo","Modelo")
+        @Html.TextBox("txaModelo","", new{@class="form-control"})
+    </div>
+    <div class="form-group">
+        @Html.Label("lblcompraAnio","Año de compra")
+        @Html.TextBox("txacompraAnio","", new{@class="form-control"})
+    </div>
+    <div class="form-group">
+        @Html.Label("lblcosto","Costo")
+        @Html.TextBox("txacosto","", new{@class="form-control"})
+    </div>
+    <div class="form-group">
+        @Html.Label("lblvidaUtil","Vida Util")
+        @Html.TextBox("txavidaUtil","", new{@class="form-control"})
+    </div>
+    <div class="form-group">
+        @Html.Label("lblestadoEquipo","Estado de Equipo")
+        @Html.TextBox("txaestadoEquipo","", new{@class="form-control"})
+    </div>
+    <div class="form-group">
+        @Html.Label("lblestado","Estado")
+        @Html.TextBox("txaestado","", new{@class="form-control"})
+    </div>
+
+    <div class="form-group">
+        <input type="submit" class="btn btn-primary" value="Guardar"/>
+    </div>
+</div>
